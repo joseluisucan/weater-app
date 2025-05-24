@@ -2,8 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    id("com.google.devtools.ksp")
     alias(libs.plugins.hilt)
+    id("kotlin-kapt")
 
 }
 
@@ -59,7 +59,7 @@ dependencies {
 
     /*HILT*/
     implementation(libs.hilt.core)
-    ksp(libs.hilt.compiler)
+    kapt(libs.hilt.compiler)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
