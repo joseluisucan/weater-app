@@ -61,6 +61,11 @@ dependencies {
     implementation(libs.hilt.core)
     kapt(libs.hilt.compiler)
 
+    /*GLIDE*/
+    implementation(libs.glide.compose)
+
+
+
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)
 

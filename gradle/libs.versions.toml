@@ -12,10 +12,12 @@ retrofit = "2.9.0"
 converterGson = "2.9.0"
 hilt = "2.48"
 kotlinx-coroutines-test = "1.7.3"
+glideComposeVersion = "1.0.0-beta01"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+glide-compose = { module = "com.github.bumptech.glide:compose", version.ref = "glideComposeVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
