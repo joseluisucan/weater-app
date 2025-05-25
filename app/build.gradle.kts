@@ -65,6 +65,8 @@ dependencies {
     implementation(libs.glide.compose)
 
 
+    implementation(libs.play.services.location)
+
 
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)
