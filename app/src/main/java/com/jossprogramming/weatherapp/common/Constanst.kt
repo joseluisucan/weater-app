@@ -3,6 +3,8 @@ package com.jossprogramming.weatherapp.common
 object Constanst {
     const val API_KEY = "45db9ecce8a5a09fedfae7d5cb765f57"
     const val URL_BASE = "https://api.weatherstack.com/"
+    const val LOCATION_ERROR_MESSAGE = "No location found. Verify the precise permission is granted."
+    const val UNKONWN_ERROR_MESSAGE = "Unknown error"
     const val FAKE_RESPONSE = """{
     "request": {
         "type": "City",
