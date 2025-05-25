@@ -9,11 +9,9 @@ A modern Android app to get real-time weather data using ZIP code or geographic 
 ---
 
 ## 📸 Screenshots
-<p align="center">
-  <img src="screenshots/lightcapture1.jpeg" alt="Home Screen" width="150"/>
-</p>
-| ![Home]() | ![Home](screenshots/lightcapture2.jpeg) | ![Home](screenshots/lightcapture3.jpeg) |
-| ![Home](screenshots/darkcapture1.jpeg) | ![Home](screenshots/darkcapture2.jpeg) | ![Home](screenshots/darkcapture3.jpeg) |
+
+| ![Light]( | ![Home](screenshots/c1.png|)  
+| ![Dark]( | ![Home](screenshots/c2.png|)
 
 ---
 ## 📍 Features
