@@ -10,8 +10,8 @@ A modern Android app to get real-time weather data using ZIP code or geographic 
 
 ## 📸 Screenshots
 
-| !(screenshots/lightcapture1.jpeg) | !(screenshots/lightcapture2.jpeg) | !(screenshots/lightcapture3.jpeg) |
-| !(screenshots/darkcapture1.jpeg) | !(screenshots/darkcapture2.jpeg) | !(screenshots/darkcapture3.jpeg) |
+| ![Home](screenshots/lightcapture1.jpeg) | ![Home](screenshots/lightcapture2.jpeg) | ![Home](screenshots/lightcapture3.jpeg) |
+| ![Home](screenshots/darkcapture1.jpeg) | ![Home](screenshots/darkcapture2.jpeg) | ![Home](screenshots/darkcapture3.jpeg) |
 
 ---
 ## 📍 Features
@@ -29,14 +29,14 @@ A modern Android app to get real-time weather data using ZIP code or geographic 
 ### 🧱 Architecture
 
 The app follows the **MVVM (Model-View-ViewModel)** pattern, using `StateFlow` for UI state management.
-I decided use clean architecture except domain layer because is a small project and for prevent boiler plate.
-UI (Compose)
-↓
-ViewModel (State & Events)
-↓
-Repository (Data Access)
-↓
-DataSource (Retrofit API)
+I decided use clean architecture except domain layer because is a small project and for prevent boiler plate.  
+UI (Compose)  
+↓  
+ViewModel (State & Events)  
+↓  
+Repository (Data Access)  
+↓  
+DataSource (Retrofit API)  
 
 ---
 
@@ -55,7 +55,7 @@ DataSource (Retrofit API)
 ---
 ## 🧪 Testing
 
-- Unit tests for repository layer using a fake API.
+- Unit tests for repository layer using a fake API (FakeWeatherService.kt and WeatherRepositoryTest.kt).
 - Uses `runTest` and `kotlinx.coroutines.test` for coroutine-based tests.
 
 ---
