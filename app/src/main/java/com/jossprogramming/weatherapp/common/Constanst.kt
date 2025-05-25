@@ -5,6 +5,8 @@ object Constanst {
     const val URL_BASE = "https://api.weatherstack.com/"
     const val LOCATION_ERROR_MESSAGE = "No location found. Verify the precise permission is granted."
     const val UNKONWN_ERROR_MESSAGE = "Unknown error"
+    const val AVAILABLE_FOR_UK_CANADA_US_ZIP_CODE_ERROR = "Temperature available for UK/Canada/US ZIP code"
+    const val UNEXPECTED_ERROR = "An unexpected error occurred"
     const val FAKE_RESPONSE = """{
     "request": {
         "type": "City",

@@ -124,7 +124,7 @@ fun WeatherOptionSelector(
 @Composable
 fun CurrentWeatherScreen(
     modifier: Modifier = Modifier,
-    temperature: Int,
+    temperature: Double,
     description: String,
     iconUrl: String,
     region:String,
